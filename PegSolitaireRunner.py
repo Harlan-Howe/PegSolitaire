@@ -1,5 +1,5 @@
 import logging, datetime
-from KinkaidDecorators import log_start_stop_method
+from KinkaidDecorators2 import log_start_stop_method, log_duration
 
 logging.basicConfig(level=logging.INFO)  # simple version to the output console
 # logging.basicConfig(level=logging.DEBUG, filename=f"log {datetime.datetime.now():%m-%d@%H:%M:%S}.txt",
